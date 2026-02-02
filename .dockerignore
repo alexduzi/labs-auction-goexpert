@@ -1,0 +1,34 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage files
+*.test
+*.out
+coverage.out
+coverage.html
+result.xml
+
+# Development files
+.git
+.gitignore
+README.md
+*.md
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Makefile (not needed in container)
+Makefile
